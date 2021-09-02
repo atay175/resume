@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    width: 100%;
+    margin:  0 auto;
+}
+
+.top-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #B87E6D;
+    padding: 30px 0;
+}
+
+.header {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 44px;
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #582F23;
+    text-transform: uppercase;
+}
+
+.photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+
+.bottom-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #734D42;
+}
+
+.footer {
+    max-width: 1300px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+}
+
+.footer div {
+    display: flex;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #ccc;
+    padding-left: 5px;
+}
+
+.footer-icon {
+    width: 18px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+}
+
+.content-block {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.content-block div {
+    margin: 20px 0;
+    width: fit-content;
+}
+
+.title {
+    font-size: 30px;
+    color: #582F23;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    border-bottom: solid 3px;
+    width: fit-content;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subtitle span {
+    font-weight: 300;
+}
+
+.education-text {
+    color: #cfcfce ;
+}
+
+.skill-box {
+    margin: 10px 0 !important;
+    display: flex;
+}
+
+.skill-box :nth-child(2) {
+    margin: 0 5px;
+}
+
+
+.skill-text {
+    padding: 3px 5px;
+    background-color: #582F23;
+    border-radius: 5px;
+    width: fit-content;
+    color: #fff;
+}
